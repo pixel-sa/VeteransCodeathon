@@ -55,69 +55,69 @@
   "owner": [
     {
       "id": 1,
-      "business_id": 1,
-      "first-name": "Andrew",
-      "last-name": "Hammill"
+      "businessId": 1,
+      "firstName": "Andrew",
+      "lastName": "Hammill"
     },
     {
       "id": 2,
-      "business_id": 2,
-      "first-name": "Sharon",
-      "last-name": "Blacknall"
+      "businessId": 2,
+      "firstName": "Sharon",
+      "lastName": "Blacknall"
     },
     {
       "id": 3,
-      "business_id": 3,
-      "first-name": "Josh",
-      "last-name": "Kinser"
+      "businessId": 3,
+      "firstName": "Josh",
+      "lastName": "Kinser"
     },
     {
       "id": 4,
-      "business_id": 4,
-      "first-name": "Michael",
-      "last-name": "Pleasant"
+      "businessId": 4,
+      "firstName": "Michael",
+      "lastName": "Pleasant"
     },
     {
       "id": 5,
-      "business_id": 5,
-      "first-name": "Tom",
-      "last-name": "Phillips"
+      "businessId": 5,
+      "firstName": "Tom",
+      "lastName": "Phillips"
     },
     {
       "id": 6,
-      "business_id": 6,
-      "first-name": "Tom",
-      "last-name": "Clutts"
+      "businessId": 6,
+      "firstName": "Tom",
+      "lastName": "Clutts"
     },
     {
       "id": 7,
-      "business_id": 7,
-      "first-name": "Ben",
-      "last-name": "Davila Jr."
+      "businessId": 7,
+      "firstName": "Ben",
+      "lastName": "Davila Jr."
     },
     {
       "id": 8,
-      "business_id": 8,
-      "first-name": "Laura",
-      "last-name": "Alexander"
+      "businessId": 8,
+      "firstName": "Laura",
+      "lastName": "Alexander"
     },
     {
       "id": 9,
-      "business_id": 9,
-      "first-name": "Gary",
-      "last-name": "Abbott"
+      "businessId": 9,
+      "firstName": "Gary",
+      "lastName": "Abbott"
     },
     {
       "id": 10,
-      "business_id": 10,
-      "first-name": "Diane",
-      "last-name": "Ripley"
+      "businessId": 10,
+      "firstName": "Diane",
+      "lastName": "Ripley"
     },
     {
       "id": 4,
-      "business_id": 4,
-      "first-name": "Michael",
-      "last-name": "Pleasant"
+      "businessId": 4,
+      "firstName": "Michael",
+      "lastName": "Pleasant"
     }
   ]
 
