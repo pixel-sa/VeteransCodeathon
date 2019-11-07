@@ -1,9 +1,12 @@
-/**
- * require style imports
- */
-const {getBusinesses, getOwners} = require('./api.js');
+const $ = require('jquery');
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+const {getBusinesses, getOwners} = require('./api.js');
 console.log("in index");
+
+
+
 
 getBusinesses().then((businesses) => {
   businesses.forEach(({id, name, address}) => {
