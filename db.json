@@ -1,0 +1,38 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Panaderia",
+      "address": "301 E Houston St, San Antonio, TX 78205",
+    },
+    {
+      "id": 2,
+      "name": "Zinc Bistro & Bar",
+      "address": "207 N Presa St, San Antonio, TX 78205",
+    },
+    {
+      "id": 3,
+      "name": "Grunt Style",
+      "address": "900 Broadway St, San Antonio, TX 78215",
+    },
+    {
+      "id": 4,
+      "name": "Panaderia",
+      "address": "301 E Houston St, San Antonio, TX 78205"
+    },
+    {
+      "id": 5,
+      "name": "Panaderia",
+      "address": "301 E Houston St, San Antonio, TX 78205",
+    }
+  ],
+  "owner": [
+    {
+      "id": 1,
+      "restaurant_id": 1,
+      "first-name": "Joe",
+      "last-name": "Smith"
+    }
+  ]
+
+}
