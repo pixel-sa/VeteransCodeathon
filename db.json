@@ -1,37 +1,123 @@
 {
-  "restaurant": [
+  "business": [
     {
       "id": 1,
-      "name": "Panaderia",
-      "address": "301 E Houston St, San Antonio, TX 78205",
+      "name": "Alamo Home Solutions",
+      "address": "1844 Lookout Forest, San Antonio, TX 78260"
     },
     {
       "id": 2,
-      "name": "Zinc Bistro & Bar",
-      "address": "207 N Presa St, San Antonio, TX 78205",
+      "name": "Military Veterans Against Child Abuse",
+      "address": "P.O. Box 761297, San Antonio, TX 78245"
     },
     {
       "id": 3,
-      "name": "Grunt Style",
-      "address": "900 Broadway St, San Antonio, TX 78215",
+      "name": "Military Warriors Support Foundation",
+      "address": "2511 N. Loop 1604 W Suite 201, San Antonio, TX 78261"
     },
     {
       "id": 4,
-      "name": "Panaderia",
-      "address": "301 E Houston St, San Antonio, TX 78205"
+      "name": "Open Security, Inc.",
+      "address": "110 E Houston St, San Antonio, TX 78205"
     },
     {
       "id": 5,
-      "name": "Panaderia",
-      "address": "301 E Houston St, San Antonio, TX 78205",
+      "name": "Phillips & Associates Realty",
+      "address": "8 Dominion Dr. Bldg 100-110, San Antonio, TX 78257"
+    },
+    {
+      "id": 6,
+      "name": "PTSD Foundation of America - SATX",
+      "address": "14747 Jones Maltsberger Bldg #500, San Antonio, TX 78247"
+    },
+    {
+      "id": 7,
+      "name": "Schertz Mobile Notary Public & Translation Services",
+      "address": "1800 NE Loop 410 Suite 302, San Antonio, TX 78217"
+    },
+    {
+      "id": 8,
+      "name": "A+ Cleaning Solutions, LLC",
+      "address": "7678 Hwy 90 Apt 98, San Antonio, TX 78227"
+    },
+    {
+      "id": 9,
+      "name": "Abbott Consulting",
+      "address": "Abbott Consulting, San Antonio, TX 78250"
+    },
+    {
+      "id": 10,
+      "name": "Affinity Floral Designs",
+      "address": "6330 De Zavala Rd Suite 102, San Antonio, TX 78249"
     }
+
   ],
   "owner": [
     {
       "id": 1,
-      "restaurant_id": 1,
-      "first-name": "Joe",
-      "last-name": "Smith"
+      "business_id": 1,
+      "first-name": "Andrew",
+      "last-name": "Hammill"
+    },
+    {
+      "id": 2,
+      "business_id": 2,
+      "first-name": "Sharon",
+      "last-name": "Blacknall"
+    },
+    {
+      "id": 3,
+      "business_id": 3,
+      "first-name": "Josh",
+      "last-name": "Kinser"
+    },
+    {
+      "id": 4,
+      "business_id": 4,
+      "first-name": "Michael",
+      "last-name": "Pleasant"
+    },
+    {
+      "id": 5,
+      "business_id": 5,
+      "first-name": "Tom",
+      "last-name": "Phillips"
+    },
+    {
+      "id": 6,
+      "business_id": 6,
+      "first-name": "Tom",
+      "last-name": "Clutts"
+    },
+    {
+      "id": 7,
+      "business_id": 7,
+      "first-name": "Ben",
+      "last-name": "Davila Jr."
+    },
+    {
+      "id": 8,
+      "business_id": 8,
+      "first-name": "Laura",
+      "last-name": "Alexander"
+    },
+    {
+      "id": 9,
+      "business_id": 9,
+      "first-name": "Gary",
+      "last-name": "Abbott"
+    },
+    {
+      "id": 10,
+      "business_id": 10,
+      "first-name": "Diane",
+      "last-name": "Ripley"
+    },
+    {
+      "id": 4,
+      "business_id": 4,
+      "first-name": "Michael",
+      "last-name": "Pleasant"
     }
   ]
 
