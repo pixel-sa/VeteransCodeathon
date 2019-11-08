@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const {getBusinesses, getOwners} = require('./api.js');
 console.log("in index");
 
-
+$('.carousel').carousel({
+    interval: 4000
+});
 
 
 getBusinesses().then((businesses) => {
