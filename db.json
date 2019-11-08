@@ -49,7 +49,38 @@
       "id": 10,
       "name": "Affinity Floral Designs",
       "address": "6330 De Zavala Rd Suite 102, San Antonio, TX 78249"
+    },
+    {
+      "id": 11,
+      "name": "Rocket Fizz",
+      "address": "513 E Houston St, San Antonio, TX 78205",
+      "phone": "(210) 229-1077",
+      "description": "Rocket Fizz San Antonio is a nationally franchised old time candy and soda shop, selling over 500 sodas and thousands of candies, gags, gifts, toys, tins, and posters.",
+      "website": "https://rocketfizz.com/locations/rocket-fizz-san-antonio-tx/",
+      "category": ["gifts", "candy"],
+      "vobUrl": "https://www.veteranownedbusiness.com/business/21007/rocket-fizz-san-antonio"
+    },
+    {
+      "id": 12,
+      "name": "Mr. Appliance of Bandera",
+      "address": "1393 Wald Rd Suite 104, New Braunfels, TX 78132",
+      "phone": "(210) 529-8679",
+      "description": "Mr. Appliance of Bandera specializes in appliance repair and maintenance to keep your appliances in peak working condition. But repairing your appliances is only part of the job. Our goal is to deliver superior service by taking extra steps to protect your home and become your preferred appliance repair expert.",
+      "website": "https://www.mrappliance.com/bandera/",
+      "category": ["appliance"],
+      "vobUrl": "https://www.veteranownedbusiness.com/business/21507/mr-appliance-of-bandera"
+    },
+    {
+      "id": 13,
+      "name": "Champion AC",
+      "address": "16018 University Oak Suite 101, San Antonio, TX 78249",
+      "phone": "(210) 699-0022",
+      "description": "Champion AC is an all-in-one Air Conditioning San Antonio service company that specializes in lowering utility costs by providing energy efficient home comfort solutions. If you are looking for a quick ac repair or a complete air conditioning installation then you have come to the right place. Champion AC is veteran-owned and operated HVAC contractor that focuses on keeping our clients cool.",
+      "website": "championac.com",
+      "category": ["appliance"],
+      "vobUrl": "https://www.veteranownedbusiness.com/business/20162/champion-ac"
     }
+
 
   ],
   "owner": [
@@ -114,10 +145,25 @@
       "lastName": "Ripley"
     },
     {
-      "id": 4,
-      "businessId": 4,
+      "id": 11,
+      "businessId": 11,
+      "firstName": "Jed",
+      "lastName": "Davis",
+      "affiliation": "Air Force, Retired"
+    },
+    {
+      "id": 12,
+      "businessId": 12,
       "firstName": "Michael",
-      "lastName": "Pleasant"
+      "lastName": "Calder",
+      "affiliation": "Air Force, Separated"
+    },
+    {
+      "id": 13,
+      "businessId": 13,
+      "firstName": "Ben",
+      "lastName": "Hubbert",
+      "affiliation":"Air Force, Retired"
     }
   ]
 
