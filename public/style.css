@@ -35,6 +35,15 @@ body {
     object-fit: cover;
 }
 
+#project-dets-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#affiliation-logo{
+    height: 50px;
+  
 .btn-primary {
     background-color: #198bcb !important;
     border-color: #198bcb !important;
