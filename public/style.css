@@ -43,4 +43,8 @@ body {
 
 #affiliation-logo{
     height: 50px;
+  
+.btn-primary {
+    background-color: #198bcb !important;
+    border-color: #198bcb !important;
 }
