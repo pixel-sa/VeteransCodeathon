@@ -12,3 +12,7 @@ out/*
 node_modules/
 main.js
 *.map
+
+
+ignore.js
+*/keys.js
