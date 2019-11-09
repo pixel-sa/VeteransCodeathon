@@ -34,3 +34,8 @@ body {
     height: 40vh;
     object-fit: cover;
 }
+
+.btn-primary {
+    background-color: #198bcb !important;
+    border-color: #198bcb !important;
+}
