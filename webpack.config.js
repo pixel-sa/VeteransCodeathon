@@ -13,6 +13,13 @@ module.exports = {
     filename: 'main.js'
   },
 
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    })
+  ],
+
   // babel config
   module: {
     rules: [
