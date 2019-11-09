@@ -3,82 +3,245 @@
     {
       "id": 1,
       "name": "Alamo Home Solutions",
-      "address": "1844 Lookout Forest, San Antonio, TX 78260"
+      "address": "1844 Lookout Forest, San Antonio, TX 78260",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website": "placeholder",
+      "category": "Home",
+      "firstName": "Andrew",
+      "lastName": "Hammill,",
+      "affiliation": "Air Force, Separated",
+      "imageUrl": "home1.jpg"
     },
     {
       "id": 2,
       "name": "Military Veterans Against Child Abuse",
-      "address": "P.O. Box 761297, San Antonio, TX 78245"
+      "address": "P.O. Box 761297, San Antonio, TX 78245",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Veteran Services",
+      "firstName": "Sharon",
+      "lastName": "Blackna,ll",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "children1.jpg"
     },
     {
       "id": 3,
       "name": "Military Warriors Support Foundation",
-      "address": "2511 N. Loop 1604 W Suite 201, San Antonio, TX 78261"
+      "address": "2511 N. Loop 1604 W Suite 201, San Antonio, TX 78261",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Veteran Services",
+      "firstName": "Josh",
+      "lastName": "Kinser",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "military1.jpg"
     },
     {
       "id": 4,
       "name": "Open Security, Inc.",
-      "address": "110 E Houston St, San Antonio, TX 78205"
+      "address": "110 E Houston St, San Antonio, TX 78205",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Security",
+      "firstName": "Michael",
+      "lastName": "Pleasant",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "security1.jpg"
     },
     {
       "id": 5,
       "name": "Phillips & Associates Realty",
-      "address": "8 Dominion Dr. Bldg 100-110, San Antonio, TX 78257"
+      "address": "8 Dominion Dr. Bldg 100-110, San Antonio, TX 78257",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Real Estate",
+      "firstName": "Tom",
+      "lastName": "Phillip,s",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "real-estate.jpg"
     },
     {
       "id": 6,
       "name": "PTSD Foundation of America - SATX",
-      "address": "14747 Jones Maltsberger Bldg #500, San Antonio, TX 78247"
+      "address": "14747 Jones Maltsberger Bldg #500, San Antonio, TX 78247",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Veteran Services",
+      "firstName": "Tom",
+      "lastName": "Clutts",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "ptsd.jpg"
     },
     {
       "id": 7,
       "name": "Schertz Mobile Notary Public & Translation Services",
-      "address": "1800 NE Loop 410 Suite 302, San Antonio, TX 78217"
+      "address": "1800 NE Loop 410 Suite 302, San Antonio, TX 78217",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Notary",
+      "firstName": "Ben",
+      "lastName": "Davila ,Jr.",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "notary.jpg"
     },
     {
       "id": 8,
       "name": "A+ Cleaning Solutions, LLC",
-      "address": "7678 Hwy 90 Apt 98, San Antonio, TX 78227"
+      "address": "7678 Hwy 90 Apt 98, San Antonio, TX 78227",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Cleaning",
+      "firstName": "Laura",
+      "lastName": "Alexander",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "cleaning.jpg"
     },
     {
       "id": 9,
-      "name": "Abbott Consulting",
-      "address": "Abbott Consulting, San Antonio, TX 78250"
+      "name": "Affinity Floral Designs",
+      "address": "6330 De Zavala Rd Suite 102, San Antonio, TX 78249",
+      "phone": "placeholder",
+      "description": "placeholder",
+      "website":  "placeholder",
+      "category": "Floral",
+      "firstName": "Diane",
+      "lastName": "Ripley",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "floral.jpg"
     },
     {
       "id": 10,
-      "name": "Affinity Floral Designs",
-      "address": "6330 De Zavala Rd Suite 102, San Antonio, TX 78249"
-    },
-    {
-      "id": 11,
       "name": "Rocket Fizz",
       "address": "513 E Houston St, San Antonio, TX 78205",
       "phone": "(210) 229-1077",
       "description": "Rocket Fizz San Antonio is a nationally franchised old time candy and soda shop, selling over 500 sodas and thousands of candies, gags, gifts, toys, tins, and posters.",
       "website": "https://rocketfizz.com/locations/rocket-fizz-san-antonio-tx/",
-      "category": ["gifts", "candy"],
-      "vobUrl": "https://www.veteranownedbusiness.com/business/21007/rocket-fizz-san-antonio"
+      "category": "candy",
+      "vobUrl": "https://www.veteranownedbusiness.com/business/21007/rocket-fizz-san-antonio",
+      "firstName": "Jed",
+      "lastName": "Davis",
+      "affiliation": "Air Force, Retired",
+      "imageUrl":  "rocket-fizz.png"
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Mr. Appliance of Bandera",
       "address": "1393 Wald Rd Suite 104, New Braunfels, TX 78132",
       "phone": "(210) 529-8679",
-      "description": "Mr. Appliance of Bandera specializes in appliance repair and maintenance to keep your appliances in peak working condition. But repairing your appliances is only part of the job. Our goal is to deliver superior service by taking extra steps to protect your home and become your preferred appliance repair expert.",
+      "description": "Mr. Appliance of Bandera specializes in appliance repair and maintenance to keep your appliances in peak working condition. ",
       "website": "https://www.mrappliance.com/bandera/",
-      "category": ["appliance"],
-      "vobUrl": "https://www.veteranownedbusiness.com/business/21507/mr-appliance-of-bandera"
+      "category": "appliance",
+      "vobUrl": "https://www.veteranownedbusiness.com/business/21507/mr-appliance-of-bandera",
+      "firstName": "Michael",
+      "lastName": "Calder",
+      "affiliation": "Air Force, Separated",
+      "imageUrl":  "mr-appliance.png"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Champion AC",
       "address": "16018 University Oak Suite 101, San Antonio, TX 78249",
       "phone": "(210) 699-0022",
-      "description": "Champion AC is an all-in-one Air Conditioning San Antonio service company that specializes in lowering utility costs by providing energy efficient home comfort solutions. If you are looking for a quick ac repair or a complete air conditioning installation then you have come to the right place. Champion AC is veteran-owned and operated HVAC contractor that focuses on keeping our clients cool.",
+      "description": "Champion AC is an all-in-one Air Conditioning San Antonio service company that specializes in lowering utility costs by providing energy efficient home comfort solutions.",
       "website": "championac.com",
-      "category": ["appliance"],
-      "vobUrl": "https://www.veteranownedbusiness.com/business/20162/champion-ac"
+      "category": "appliance",
+      "vobUrl": "https://www.veteranownedbusiness.com/business/20162/champion-ac",
+      "firstName": "Ben",
+      "lastName": "Hubbert",
+      "affiliation":"Air Force, Retired",
+      "imageUrl":  "champion-ac.png"
+    },
+    {
+      "id": 13,
+      "name": "Selrico Services Inc.",
+      "address": "717 W. Ashby Pl. San Antonio, TX, 78217",
+      "phone": "(210) 737-8220",
+      "description": "Selrico Services, Inc. is a global and award-winning, full-service contractor that supports government organizations, institutional facilities, and commercial companies. ",
+      "website": "selricoservices.com",
+      "category": "solutions",
+      "vobUrl": "",
+      "firstName": "Christina",
+      "lastName": "Aleman",
+      "affiliation":"Army",
+      "imageUrl":  "champion-ac.png"
+    },
+    {
+      "id": 14,
+      "name": "M2 Global Technology Ltd.",
+      "address": "5714 Epsilon San Antonio, TX, 78249",
+      "phone": "(210) 561-4800",
+      "description": "M2 Global Technology, Ltd. is a premier worldwide supplier of microwave products and precision manufacturing services. ",
+      "website": "m2global.com",
+      "category": "technology",
+      "vobUrl": "",
+      "firstName": "Douglas",
+      "lastName": "Carlberg",
+      "affiliation":"Army",
+      "imageUrl":  "m2-global.png"
+    },
+    {
+      "id": 15,
+      "name": "Grunt Style",
+      "address": "900 Broadway St. San Antonio, TX, 78215",
+      "phone": "(877) 554-7868",
+      "description": "Our mission is to deliver the highest quality, most patriotic apparel on the planet, straight to your front door." ,
+      "website": "gruntstyle.com",
+      "category": "clothing",
+      "vobUrl": "",
+      "firstName": "Daniel",
+      "lastName": "Alarik",
+      "affiliation":"Army",
+      "imageUrl":  "grunt-style-logo.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Byrne Construction Services",
+      "address": "14220 Northbrook Dr. San Antonio, TX, 78232",
+      "phone": "(210) 402-3335",
+      "description": "For over 90 years, Byrne Construction has been the name that Texas businesses trust to build their future.",
+      "website": "tsbyrne.com",
+      "category": "construction",
+      "vobUrl": "",
+      "firstName": "John",
+      "lastName": "Avila",
+      "affiliation":"Army",
+      "imageUrl":  "tsbyrne.png"
+    },
+    {
+      "id": 17,
+      "name": "PMI Birdy Properties",
+      "address": "18830 Stone Oak Pkwy. San Antonio, TX, 78258",
+      "phone": "(210) 524-9400",
+      "description": "Family owned and operated property management and real estate company for three generations and over 40 years of experience. ",
+      "website": "birdy.com",
+      "category": "property",
+      "vobUrl": "",
+      "firstName": "Karen & Brian",
+      "lastName": "Birdy",
+      "affiliation":"Air Force",
+      "imageUrl":  "birdy-logo.png"
+    },
+    {
+      "id": 18,
+      "name": "Good Electric Ltd.",
+      "address": "9018 Aero St. San Antonio, TX, 78217",
+      "phone": "(210) 820-0220",
+      "description": "Residential and Commercial Electrical Repair and Installation Services for all of San Antonio and the greater Southwest Texas Region",
+      "website": "goodelectricltd.com",
+      "category": "electric",
+      "vobUrl": "",
+      "firstName": "Larry",
+      "lastName": "Good",
+      "affiliation":"Air Force",
+      "imageUrl":  "electric-logo.png"
     }
 
 
@@ -88,61 +251,81 @@
       "id": 1,
       "businessId": 1,
       "firstName": "Andrew",
-      "lastName": "Hammill"
+      "lastName": "Hammill,",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 2,
       "businessId": 2,
       "firstName": "Sharon",
-      "lastName": "Blacknall"
+      "lastName": "Blackna,ll",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 3,
       "businessId": 3,
       "firstName": "Josh",
-      "lastName": "Kinser"
+      "lastName": "Kinser",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 4,
       "businessId": 4,
       "firstName": "Michael",
-      "lastName": "Pleasant"
+      "lastName": "Pleasan,t",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 5,
       "businessId": 5,
       "firstName": "Tom",
-      "lastName": "Phillips"
+      "lastName": "Phillip,s",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 6,
       "businessId": 6,
       "firstName": "Tom",
-      "lastName": "Clutts"
+      "lastName": "Clutts",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 7,
       "businessId": 7,
       "firstName": "Ben",
-      "lastName": "Davila Jr."
+      "lastName": "Davila ,Jr.",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 8,
       "businessId": 8,
       "firstName": "Laura",
-      "lastName": "Alexander"
+      "lastName": "Alexander",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 9,
       "businessId": 9,
       "firstName": "Gary",
-      "lastName": "Abbott"
+      "lastName": "Abbott",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 10,
       "businessId": 10,
       "firstName": "Diane",
-      "lastName": "Ripley"
+      "lastName": "Ripley",
+            "affiliation": "Air Force, Separated"
+
     },
     {
       "id": 11,
