@@ -11,6 +11,10 @@ body {
     /*transform: translateY(-100%);*/
     /*text-align: center;*/
 /*}*/
+#button-addon6 {
+    background-color: #198bcb;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 300px;
