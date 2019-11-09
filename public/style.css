@@ -34,3 +34,13 @@ body {
     height: 40vh;
     object-fit: cover;
 }
+
+#project-dets-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#affiliation-logo{
+    height: 50px;
+}

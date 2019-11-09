@@ -11,7 +11,8 @@
       "firstName": "Andrew",
       "lastName": "Hammill,",
       "affiliation": "Air Force, Separated",
-      "imageUrl": "home1.jpg"
+      "imageUrl": "home1.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 2,
@@ -24,20 +25,22 @@
       "firstName": "Sharon",
       "lastName": "Blackna,ll",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "children1.jpg"
+      "imageUrl":  "children1.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 3,
       "name": "Military Warriors Support Foundation",
       "address": "2511 N. Loop 1604 W Suite 201, San Antonio, TX 78261",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "phone": "(210) 615-8973",
+      "description": "Our mission is to provide support and programs that facilitate a smooth and successful transition for our nation’s combat wounded heroes and Gold Star families.",
+      "website":  "https://militarywarriors.org/about-us/",
       "category": "Veteran Services",
-      "firstName": "Josh",
-      "lastName": "Kinser",
-      "affiliation": "Air Force, Separated",
-      "imageUrl":  "military1.jpg"
+      "firstName": "Leroy",
+      "lastName": "Sisco",
+      "affiliation": "Army, Retired",
+      "imageUrl":  "military1.jpg",
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "firstName": "Michael",
       "lastName": "Pleasant",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "security1.jpg"
+      "imageUrl":  "security1.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
       "firstName": "Tom",
       "lastName": "Phillip,s",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "real-estate.jpg"
+      "imageUrl":  "real-estate.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 6,
@@ -76,7 +81,8 @@
       "firstName": "Tom",
       "lastName": "Clutts",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "ptsd.jpg"
+      "imageUrl":  "ptsd.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 7,
@@ -89,7 +95,8 @@
       "firstName": "Ben",
       "lastName": "Davila ,Jr.",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "notary.jpg"
+      "imageUrl":  "notary.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 8,
@@ -102,7 +109,8 @@
       "firstName": "Laura",
       "lastName": "Alexander",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "cleaning.jpg"
+      "imageUrl":  "cleaning.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 9,
@@ -115,7 +123,8 @@
       "firstName": "Diane",
       "lastName": "Ripley",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "floral.jpg"
+      "imageUrl":  "floral.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 10,
@@ -129,7 +138,8 @@
       "firstName": "Jed",
       "lastName": "Davis",
       "affiliation": "Air Force, Retired",
-      "imageUrl":  "rocket-fizz.png"
+      "imageUrl":  "rocket-fizz.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 11,
@@ -143,7 +153,8 @@
       "firstName": "Michael",
       "lastName": "Calder",
       "affiliation": "Air Force, Separated",
-      "imageUrl":  "mr-appliance.png"
+      "imageUrl":  "mr-appliance.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 12,
@@ -157,7 +168,8 @@
       "firstName": "Ben",
       "lastName": "Hubbert",
       "affiliation":"Air Force, Retired",
-      "imageUrl":  "champion-ac.png"
+      "imageUrl":  "champion-ac.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 13,
@@ -171,7 +183,8 @@
       "firstName": "Christina",
       "lastName": "Aleman",
       "affiliation":"Army",
-      "imageUrl":  "champion-ac.png"
+      "imageUrl":  "champion-ac.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 14,
@@ -185,7 +198,8 @@
       "firstName": "Douglas",
       "lastName": "Carlberg",
       "affiliation":"Army",
-      "imageUrl":  "m2-global.png"
+      "imageUrl":  "m2-global.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 15,
@@ -199,7 +213,8 @@
       "firstName": "Daniel",
       "lastName": "Alarik",
       "affiliation":"Army",
-      "imageUrl":  "grunt-style-logo.jpg"
+      "imageUrl":  "grunt-style-logo.jpg",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 16,
@@ -213,7 +228,8 @@
       "firstName": "John",
       "lastName": "Avila",
       "affiliation":"Army",
-      "imageUrl":  "tsbyrne.png"
+      "imageUrl":  "tsbyrne.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 17,
@@ -227,7 +243,8 @@
       "firstName": "Karen & Brian",
       "lastName": "Birdy",
       "affiliation":"Air Force",
-      "imageUrl":  "birdy-logo.png"
+      "imageUrl":  "birdy-logo.png",
+      "affiliationLogoUrl": "army-logo.png"
     },
     {
       "id": 18,
@@ -241,7 +258,8 @@
       "firstName": "Larry",
       "lastName": "Good",
       "affiliation":"Air Force",
-      "imageUrl":  "electric-logo.png"
+      "imageUrl":  "electric-logo.png",
+      "affiliationLogoUrl": "army-logo.png"
     }
 
 
