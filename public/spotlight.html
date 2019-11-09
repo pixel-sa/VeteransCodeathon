@@ -57,11 +57,11 @@
         <!--</ol>-->
         <div class="carousel-inner">
           <div class="item carousel-item active">
-            <img src="img/woman-in-blue-suit-jacket-2422293.jpg" class="w-100 img-fluid"
+            <img src="img/woman-in-blue-suit-jacket-2422293.jpg"
+                 class="w-100 img-fluid"
                  alt="">
-            <div
-                    class="carousel-caption text-left">
-              <div class="col-md-5 offset-md-7">
+            <div class="carousel-caption text-left">
+              <div class="col col-md-5 offset-md-7 py-3">
                 <h3 class="display-4">November Spotlight:</h3>
                 <br>
                 <h5>Business name here</h5>
@@ -69,6 +69,18 @@
                   gives back to her veteran community. We are honored to have had
                   the opportunity to go behind the scenes with this service member
                   .</p>
+                <hr>
+                <a href="#">Read More ></a>
+              </div>
+            </div>
+          </div>
+          <div class="item carousel-item">
+            <img src="img/photo-of-men-pointing-to-each-other-2750174.jpg" class="w-100 img-fluid"
+                 alt="">
+            <div class="carousel-caption text-center">
+              <div class="col col-md-6 offset-3 py-3">
+                <h3 class="display-4">From Battle Buddies to Business
+                  Partners:</h3>
                 <hr>
                 <a href="#">Read More ></a>
               </div>
@@ -87,14 +99,17 @@
     </div>
   </div>
 
-
   <div class="container mb-5">
-    <div class="row pt-5">
+    <div class="row pt-3">
       <h1 class="mx-auto">Previously Featured</h1>
     </div>
   </div>
 
-
 <script src="./main.js"></script>
+  <script>
+    $('.carousel').carousel({
+        interval: 2000
+    });
+  </script>
 </body>
 </html>

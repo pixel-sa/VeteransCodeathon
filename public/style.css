@@ -5,6 +5,10 @@ body {
     height: 100%;
     padding-top: 56px;
 }
+
+hr {
+    background-color: #d65108;
+}
 /*.container {*/
     /*position: relative;*/
     /*top: 50%;*/
@@ -64,13 +68,14 @@ body {
 }
 
 .carousel-caption {
-    bottom: 25% !important;
+    bottom: 20% !important;
 }
 
 .carousel-caption .display-4 {
     font-size: 2.0rem;
 }
 
-.carousel-caption .col-md-5{
+.carousel-caption .col{
     background-color: #000;
+    background-color: rgba(0,0,0,0.6);
 }
