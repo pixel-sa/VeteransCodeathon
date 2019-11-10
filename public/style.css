@@ -5,6 +5,17 @@ body {
     height: 100%;
     padding-top: 56px;
 }
+
+hr {
+    background-color: #d65108;
+}
+
+footer {
+    background-color: #062535 !important;
+}
+.navbar-custom {
+    background-color: #062535 !important;
+}
 /*.container {*/
     /*position: relative;*/
     /*top: 50%;*/
@@ -41,10 +52,37 @@ body {
     padding: 0;
 }
 
-#affiliation-logo{
+#affiliation-logo {
     height: 50px;
+}
   
 .btn-primary {
     background-color: #198bcb !important;
     border-color: #198bcb !important;
+}
+
+.carousel h1,
+.carousel h2,
+.carousel h3,
+.carousel h4,
+.carousel h5,
+.carousel h6,
+.carousel p,
+.carousel a:link,
+.carousel a:active,
+.carousel a:visited {
+    color: #fff !important;
+}
+
+.carousel-caption {
+    bottom: 20% !important;
+}
+
+.carousel-caption .display-4 {
+    font-size: 2.0rem;
+}
+
+.carousel-caption .col{
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
 }

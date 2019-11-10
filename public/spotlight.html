@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Spotlight</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://kit.fontawesome.com/8c3eeee2d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">VB Book</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="directory.html">Directory</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Spotlight</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" href="portfolio-1-col.html">New
+              Business Owners</a>
+            <a class="dropdown-item" href="portfolio-2-col.html">Current
+              Business Owners</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--Carousel-->
+  <div class="container">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide"
+           data-ride="carousel">
+        <!--<ol class="carousel-indicators">-->
+          <!--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
+          <!--<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>-->
+          <!--<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>-->
+        <!--</ol>-->
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <img src="img/woman-in-blue-suit-jacket-2422293.jpg"
+                 class="w-100 img-fluid"
+                 alt="">
+            <div class="carousel-caption text-left">
+              <div class="col col-md-5 offset-md-7 py-3">
+                <h3 class="display-4">November Spotlight:</h3>
+                <br>
+                <h5>Business name here</h5>
+                <p>This month, we are recognizing a business owner who tirelessly
+                  gives back to her veteran community. We are honored to have had
+                  the opportunity to go behind the scenes with this service member
+                  .</p>
+                <hr>
+                <a href="#">Read More ></a>
+              </div>
+            </div>
+          </div>
+          <div class="item carousel-item">
+            <img src="img/photo-of-men-pointing-to-each-other-2750174.jpg" class="w-100 img-fluid"
+                 alt="">
+            <div class="carousel-caption text-center">
+              <div class="col col-md-6 offset-3 py-3">
+                <h3 class="display-4">From Battle Buddies to Business
+                  Partners:</h3>
+                <hr>
+                <a href="#">Read More ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row pt-3">
+      <h1 class="mx-auto">Previously Featured</h1>
+    </div>
+  </div>
+
+<script src="./main.js"></script>
+  <script>
+    $('.carousel').carousel({
+        interval: 2000
+    });
+  </script>
+</body>
+</html>

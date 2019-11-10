@@ -13,6 +13,7 @@ node_modules/
 main.js
 *.map
 
+src/keys.js
 
 ignore.js
 */keys.js
