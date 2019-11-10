@@ -243,7 +243,15 @@ function createProfileHtml(){
     businessHtml += '<li><strong>Website: </strong><a target="_blank" href="'+ profileBusiness.website +'">'+ profileBusiness.website + '</a></li>';
     businessHtml += '</ul>';
 	businessHtml += '<hr>';
-	businessHtml += '<button type="button" id="send-info-btn" class="btn btn-primary">Send Info</button>';
+	businessHtml += '<div class="row text-center"><div class="col"><i' +
+        ' class="fab fa-instagram fa-3x"></i></div><div' +
+        ' class="col"><i class="fab' +
+        ' fa-facebook-square fa-3x"></i></div><div' +
+        ' class="col"><i class="fab fa-yelp fa-3x"></i></div><div' +
+        ' class="col"><i class="fab fa-twitter-square' +
+        ' fa-3x"></i></div></div><br>';
+	businessHtml += '<button type="button" id="send-info-btn" class="btn' +
+        ' btn-primary btn-block">Send Info</button>';
 
 
 	businessHtml += '</div>';
