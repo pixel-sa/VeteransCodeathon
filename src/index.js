@@ -205,7 +205,7 @@ function createPageHeaderHtml(){
 function renderPageHeaderImage(){
     var pageHeaderHtml = createPageHeaderHtml();
 
-    $('#page-header').html(pageHeaderHtml).css({'background-image': 'url(img/'+profileBusiness.imageUrl+')', 'background-size': 'cover', 'max-width': '100%', 'height': '30%', 'background-position':'center' });
+    $('#page-header').html(pageHeaderHtml).css({'background-image': 'url(img/'+profileBusiness.imageUrl+')', 'background-size': 'cover', 'max-width': '100%', 'height': '35%', 'background-position':'center' });
 }
 
 function createProfileHtml(){
@@ -216,12 +216,13 @@ function createProfileHtml(){
     // businessHtml += '</li>'
     // businessHtml += '<li class="breadcrumb-item active">Portfolio Item</li>'
     // businessHtml += '</ol>'
-    businessHtml += '<h1 class="mt-4 mb-3" id="">' + profileBusiness.name + ' ';
+    businessHtml += '<h1 class="mt-4 mb-3 text-center display-4" id="">' + profileBusiness.name + ' ';
     businessHtml += '</h1>';
     businessHtml += '<div class="row">';
     businessHtml += '<div class="col-lg-6 col-sm-12 text-center">';
     // businessHtml += '<img class="img-fluid" src="img/'+ profileBusiness.imageUrl +'" alt="">'
-    businessHtml += '<iframe width="400" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q='+ createEmbedMapString(profileBusiness.address) +'&key='+ googleMapsKey +'" allowfullscreen></iframe>';
+    businessHtml += '<iframe width="500" height="450" frameborder="0"' +
+        ' style="border:0" src="https://www.google.com/maps/embed/v1/place?q='+ createEmbedMapString(profileBusiness.address) +'&key='+ googleMapsKey +'" allowfullscreen></iframe>';
     businessHtml += '</div>';
     businessHtml += '<div class="col-lg-6 col-sm-12">';
     businessHtml += '<h3 class="my-3"><img id="affiliation-logo" src="img/'+ profileBusiness.affiliationLogoUrl +'" alt=""> '+profileBusiness.firstName + ' ' + profileBusiness.lastName + ' - <span>'+ profileBusiness.affiliation +'</span></h3>';
