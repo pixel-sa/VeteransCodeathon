@@ -210,7 +210,6 @@ function renderProfileDetails(){
 	$("#profile-container").html(businessHtml)
 }
 
-<<<<<<< HEAD
 $('#profile-title').html(profileBusiness.name)
 
 var businessHtml = "";
@@ -236,6 +235,4 @@ businessHtml += '</ul>'
 businessHtml += '</div>'
 businessHtml += '</div>'
 
-$("#profile-container").html(businessHtml)
-=======
->>>>>>> master
+$("#profile-container").html(businessHtml);
