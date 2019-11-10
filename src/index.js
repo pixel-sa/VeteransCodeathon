@@ -8,11 +8,12 @@ import 'jquery-ui/ui/widgets/autocomplete.js'
 import {business, owner} from '../db.json';
 
 const {getBusinesses, getOwners} = require('./api.js');
-const {googleMapsKey} = require('./keys')
+const {googleMapsKey, twilioSid, twilioAuth, twilioToNumber, twilioFromNumber} = require('./keys')
 
 console.log("in index");
 
 var businessList = business;
+
 var ownerList = owner;
 
 console.log(businessList);
@@ -236,6 +237,7 @@ function createProfileHtml(){
     businessHtml += '<li><strong>Website: </strong><a target="_blank" href="'+ profileBusiness.website +'">'+ profileBusiness.website + '</a></li>';
     businessHtml += '</ul>';
 	businessHtml += '<hr>';
+	businessHtml += '<button type="button" id="send-info-btn" class="btn btn-primary">Send Info</button>';
 
 
 	businessHtml += '</div>';
@@ -248,3 +250,37 @@ function renderProfileDetails(){
     var businessHtml = createProfileHtml()
     $("#profile-container").html(businessHtml)
 }
+
+$("#send-info-btn").on("click", function () {
+	console.log(profileBusiness);
+	sendSms(profileBusiness);
+})
+
+function sendSms(info){
+	console.log("sending sms");
+	var SID = twilioSid
+	var Key = twilioAuth
+
+	var bodyHtml = "Thank you for using VB Book: Here is your requested info! " + info.name + " - " + info.phone + " - " + info.website;
+
+	$.ajax({
+		type: 'POST',
+		url: 'https://api.twilio.com/2010-04-01/Accounts/' + SID + '/Messages.json',
+		data: {
+			"To" : twilioToNumber,
+			"From" : twilioFromNumber,
+			"Body" : '"'+ bodyHtml + '"'
+		},
+		beforeSend: function (xhr) {
+			xhr.setRequestHeader ("Authorization", "Basic " + btoa(SID + ':' + Key));
+		},
+		success: function(data) {
+			console.log(data);
+		},
+		error: function(data) {
+			console.log(data);
+		}
+	});
+};
+
+

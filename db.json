@@ -4,29 +4,29 @@
       "id": 1,
       "name": "Alamo Home Solutions",
       "address": "1844 Lookout Forest, San Antonio, TX 78260",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website": "placeholder",
+      "phone": "(210) 416 - 2446",
+      "description": "I am a Security Professional with over 14 years of experience in the Law Enforcement and Private Security sectors. My background along with my degree in IT Security helps me provide my customers with an expert plan for all of their security needs, physically and digitally.",
+      "website": "http://alamohomesecuritysolutions.com/",
       "category": "Home",
       "firstName": "Andrew",
       "lastName": "Hammill",
       "affiliation": "Air Force, Separated",
       "imageUrl": "home1.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 2,
       "name": "Military Veterans Against Child Abuse",
-      "address": "P.O. Box 761297, San Antonio, TX 78245",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "address": "San Antonio, TX 78245",
+      "phone": "(210) 675-8231",
+      "description": "Melissa Montgomery is the Texas State Grants Manager for Mothers Against Drunk Driving, a 501(c)3 non-profit.  Previously, she managed Victims Services in addition to several other MADD programs and grants.",
+      "website":  "https://mvacaunited.org/",
       "category": "Veteran Services",
       "firstName": "Sharon",
       "lastName": "Blacknall",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "children1.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 3,
@@ -40,91 +40,93 @@
       "lastName": "Sisco",
       "affiliation": "Army, Retired",
       "imageUrl":  "military1.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "army.png"
     },
     {
       "id": 4,
       "name": "Open Security, Inc.",
       "address": "110 E Houston St, San Antonio, TX 78205",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "phone": "(210) 446-7691",
+      "description": "Open Security, Inc., was created by servicemember cyber professionals to bring professional quality, analytically rigorous information security assessments to private sector businesses of all sizes using its experience, tools, and tactics fighting global cyberwarfare. ",
+      "website":  "https://www.opensecurity.io",
       "category": "Security",
       "firstName": "Michael",
       "lastName": "Pleasant",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "security1.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 5,
       "name": "Phillips & Associates Realty",
       "address": "8 Dominion Dr. Bldg 100-110, San Antonio, TX 78257",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "phone": "(210) 571-0330",
+      "description": "We take great pride in our ability to deliver outstanding results. And our satisfied home buyers and sellers can attest to that. That’s what makes us more than just another real estate agency. It means we not only have the expertise to see your purchase or sale through from start to finish, we’re here for you from then on for any needs that might arise.",
+      "website":  "https://phillipsrealty.co/",
       "category": "Real Estate",
       "firstName": "Tom",
       "lastName": "Phillips",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "real-estate.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 6,
       "name": "PTSD Foundation of America - SATX",
       "address": "14747 Jones Maltsberger Bldg #500, San Antonio, TX 78247",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "phone": "(210) 248-9784",
+      "description": "TXServes – San Antonio is a coordinated network of public, private and nonprofit organizations serving veterans, service members and their families in San Antonio, and Bexar County. TXServes – San Antonio uses technology and its partner network to guide veterans, service members and their families to the most appropriate services and resources available.",
+      "website":  "https://sanantonio.americaserves.org/providers/ptsd-foundation-america-san-antonio/",
       "category": "Veteran Services",
       "firstName": "Tom",
       "lastName": "Clutts",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "ptsd.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 7,
-      "name": "Schertz Mobile Notary Public & Translation Services",
-      "address": "1800 NE Loop 410 Suite 302, San Antonio, TX 78217",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
-      "category": "Notary",
-      "firstName": "Ben",
-      "lastName": "Davila ,Jr.",
-      "affiliation": "Air Force, Separated",
-      "imageUrl":  "notary.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "name": "Good Electric Ltd.",
+      "address": "9018 Aero St. San Antonio, TX, 78217",
+      "phone": "(210) 820-0220",
+      "description": "Residential and Commercial Electrical Repair and Installation Services for all of San Antonio and the greater Southwest Texas Region",
+      "website": "goodelectricltd.com",
+      "category": "electric",
+      "vobUrl": "",
+      "firstName": "Larry",
+      "lastName": "Good",
+      "affiliation":"Air Force",
+      "imageUrl":  "electric-logo.png",
+      "affiliationLogoUrl": "airforce.png"
     },
     {
-      "id": 8,
-      "name": "A+ Cleaning Solutions, LLC",
-      "address": "7678 Hwy 90 Apt 98, San Antonio, TX 78227",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
-      "category": "Cleaning",
-      "firstName": "Laura",
-      "lastName": "Alexander",
-      "affiliation": "Air Force, Separated",
-      "imageUrl":  "cleaning.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "id": 17,
+      "name": "PMI Birdy Properties",
+      "address": "18830 Stone Oak Pkwy. San Antonio, TX, 78258",
+      "phone": "(210) 524-9400",
+      "description": "Family owned and operated property management and real estate company for three generations and over 40 years of experience.  As active members of the National Association of Residential Property Managers (NARPM) we offer the finest Property Management services in San Antonio and South Texas.",
+      "website": "birdy.com",
+      "category": "property",
+      "vobUrl": "",
+      "firstName": "Karen & Brian",
+      "lastName": "Birdy",
+      "affiliation":"Air Force",
+      "imageUrl":  "birdy-logo.png",
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 9,
       "name": "Affinity Floral Designs",
       "address": "6330 De Zavala Rd Suite 102, San Antonio, TX 78249",
-      "phone": "placeholder",
-      "description": "placeholder",
-      "website":  "placeholder",
+      "phone": "(210) 257-8136",
+      "description": "Proudly serving the San Antonio, Texas area, we're a full-service local florist that is family-owned and operated. Our helpful staff is ready to assist you with placing orders for local delivery or anywhere in the world.",
+      "website":  "https://www.affinityfloraldesigns.com/",
       "category": "Floral",
       "firstName": "Diane",
       "lastName": "Ripley",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "floral.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 10,
@@ -139,7 +141,7 @@
       "lastName": "Davis",
       "affiliation": "Air Force, Retired",
       "imageUrl":  "rocket-fizz.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 11,
@@ -154,7 +156,7 @@
       "lastName": "Calder",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "mr-appliance.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 12,
@@ -169,7 +171,7 @@
       "lastName": "Hubbert",
       "affiliation":"Air Force, Retired",
       "imageUrl":  "champion-ac.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "airforce.png"
     },
     {
       "id": 13,
@@ -184,7 +186,7 @@
       "lastName": "Aleman",
       "affiliation":"Army",
       "imageUrl":  "champion-ac.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "army.png"
     },
     {
       "id": 14,
@@ -199,7 +201,7 @@
       "lastName": "Carlberg",
       "affiliation":"Army",
       "imageUrl":  "m2-global.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "army.png"
     },
     {
       "id": 15,
@@ -214,7 +216,7 @@
       "lastName": "Alarik",
       "affiliation":"Army",
       "imageUrl":  "grunt-style-logo.jpg",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "army.png"
     },
     {
       "id": 16,
@@ -229,37 +231,7 @@
       "lastName": "Avila",
       "affiliation":"Army",
       "imageUrl":  "tsbyrne.png",
-      "affiliationLogoUrl": "us-army-crest.png"
-    },
-    {
-      "id": 17,
-      "name": "PMI Birdy Properties",
-      "address": "18830 Stone Oak Pkwy. San Antonio, TX, 78258",
-      "phone": "(210) 524-9400",
-      "description": "Family owned and operated property management and real estate company for three generations and over 40 years of experience. ",
-      "website": "birdy.com",
-      "category": "property",
-      "vobUrl": "",
-      "firstName": "Karen & Brian",
-      "lastName": "Birdy",
-      "affiliation":"Air Force",
-      "imageUrl":  "birdy-logo.png",
-      "affiliationLogoUrl": "us-army-crest.png"
-    },
-    {
-      "id": 18,
-      "name": "Good Electric Ltd.",
-      "address": "9018 Aero St. San Antonio, TX, 78217",
-      "phone": "(210) 820-0220",
-      "description": "Residential and Commercial Electrical Repair and Installation Services for all of San Antonio and the greater Southwest Texas Region",
-      "website": "goodelectricltd.com",
-      "category": "electric",
-      "vobUrl": "",
-      "firstName": "Larry",
-      "lastName": "Good",
-      "affiliation":"Air Force",
-      "imageUrl":  "electric-logo.png",
-      "affiliationLogoUrl": "us-army-crest.png"
+      "affiliationLogoUrl": "army.png"
     }
 
 
