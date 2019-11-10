@@ -155,7 +155,14 @@ function createBusinessTable(){
 
 
 
-$('.card-link').on("click", function(event){
+// $('.card-link').on("click", function(event){
+//     event.preventDefault()
+//     var businessId = $(this).attr("data-id")
+//     var queryString = $.param({id: businessId})
+//     window.location.replace("/profile.html?" + queryString);
+// })
+
+$(document).on("click", '.card-link', function(event){
     event.preventDefault()
     var businessId = $(this).attr("data-id")
     var queryString = $.param({id: businessId})
@@ -268,6 +275,8 @@ function renderProfileDetails(){
 
 $("#send-info-btn").on("click", function () {
 	console.log(profileBusiness);
+	$("#send-info-btn").removeClass('btn-primary').css("background-color","grey")
+	$("#send-info-btn").html("sending...").css("background-color","grey")
 	sendSms(profileBusiness);
 })
 
@@ -291,6 +300,10 @@ function sendSms(info){
 		},
 		success: function(data) {
 			console.log(data);
+			$("#send-info-btn").css("background-color", "").addClass('btn-success').html("Sent!")
+			setTimeout(function(){
+				$("#send-info-btn").removeClass('btn-primary').addClass('btn-primary').html("Send info")
+			}, 3000);
 		},
 		error: function(data) {
 			console.log(data);
