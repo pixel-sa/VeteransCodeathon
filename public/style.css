@@ -9,6 +9,13 @@ body {
 hr {
     background-color: #d65108;
 }
+
+footer {
+    background-color: #062535 !important;
+}
+.navbar-custom {
+    background-color: #062535 !important;
+}
 /*.container {*/
     /*position: relative;*/
     /*top: 50%;*/
