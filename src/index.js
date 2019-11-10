@@ -12,7 +12,8 @@ const {googleMapsKey, twilioSid, twilioAuth, twilioToNumber, twilioFromNumber} =
 
 console.log("in index");
 
-var businessList = business
+var businessList = business;
+
 var ownerList = owner;
 
 console.log(businessList);
