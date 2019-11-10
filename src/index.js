@@ -245,12 +245,6 @@ var businessAddress = profileBusiness.address
 $('#profile-title').html(profileBusiness.name)
 
 var businessHtml = "";
-businessHtml += '<ol class="breadcrumb">'
-businessHtml += '<li class="breadcrumb-item">'
-businessHtml += '<a href="directory.html">Home</a>'
-businessHtml += '</li>'
-businessHtml += '<li class="breadcrumb-item active">Portfolio Item</li>'
-businessHtml += '</ol>'
 businessHtml += '<h1 class="mt-4 mb-3" id="">' + profileBusiness.name + ' ';
 // businessHtml += '<small>'+ profileBusiness.firstName + ' ' + profileBusiness.lastName  +'</small>'
 businessHtml += '</h1>'
