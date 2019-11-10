@@ -235,7 +235,10 @@ function createProfileHtml(){
     businessHtml += '<li><strong>Phone: </strong>'+ profileBusiness.phone + '</li>';
     businessHtml += '<li><strong>Website: </strong><a target="_blank" href="'+ profileBusiness.website +'">'+ profileBusiness.website + '</a></li>';
     businessHtml += '</ul>';
-    businessHtml += '</div>';
+	businessHtml += '<hr>';
+
+
+	businessHtml += '</div>';
     businessHtml += '</div>';
 
     return businessHtml;
