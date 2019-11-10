@@ -49,10 +49,10 @@
     </div>
   </nav>
   <header>
-    <div class="row align-items-center" style="background-color: #e9ecef;">
+    <div class="row align-items-center" style="background-color:
+    #e9ecef;">
       <div class="col-sm-12 col-md-6" style="padding: 5%;">
-        <h4 class="display-4"><strong>V</strong>eteran
-          <strong>B</strong>usiness <strong>D</strong>irectory</h4>
+        <h4 class="display-4"><strong>V</strong><strong>B</strong> <strong>D</strong>irectory</h4>
         <p class="lead">Find and support a local veteran-owned business. You
         might just become a regular.</p>
         <hr class="my-4">
@@ -61,6 +61,20 @@
           <div class="input-group-append">
             <button id="button-addon6" type="submit" class="btn btn-info"><i class="fa fa-search"></i></button>
           </div>
+        </div>
+        <br>
+        <div class="row text-center">
+          <div class="col">
+            <img src="img/army.png" class="img-fluid thumbnail w-75" alt="">
+          </div>
+          <div class="col"><img src="img/navy.png"
+                                class="img-fluid thumbnail w-75" alt=""></div>
+          <div class="col"><img src="img/airforce.png"
+                                class="img-fluid thumbnail w-75" alt=""></div>
+          <div class="col"><img src="img/marine.png"
+                                class="img-fluid thumbnail w-75" alt=""></div>
+          <div class="col"><img src="img/coastguard.png"
+                                class="img-fluid thumbnail w-75" alt=""></div>
         </div>
 <!--        <button type="button" class="btn btn-primary" id="add-business" data-toggle="modal" data-target="#exampleModal">-->
 <!--          Add Business-->
@@ -184,12 +198,99 @@
   </div>
 
 
-  <!--Search Results show up here-->
-  <div id="search-results" class="container mt-5">
+  <div class="container mt-5">
+    <div class="row">
+      <!--Search Results-->
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 mb-4">
+        <div class="list-group">
+          <a href="#" class="list-group-item">Arts and Entertainment</a>
+          <a href="#" class="list-group-item">Automotive</a>
+          <a href="#" class="list-group-item">Business Services</a>
+          <a href="#" class="list-group-item">Commercial Contracting</a>
+          <a href="#" class="list-group-item">Construction</a>
+          <a href="#" class="list-group-item">Education and Training</a>
+          <a href="#" class="list-group-item">Employment Services</a>
+          <a href="#" class="list-group-item">Energy and Utilities</a>
+          <a href="#" class="list-group-item">Engineering Services</a>
+          <a href="#" class="list-group-item">Environmental Services</a>
+          <a href="#" class="list-group-item">Financial Services</a>
+          <a href="#" class="list-group-item">Food and Drink</a>
+          <a href="#" class="list-group-item">Government</a>
+          <a href="#" class="list-group-item active">Health, Medical and
+            Dental</a>
+          <a href="#" class="list-group-item">Insurance Services</a>
+          <a href="#" class="list-group-item">Legal Services</a>
+          <a href="#" class="list-group-item">Marketing and Sales</a>
+          <a href="#" class="list-group-item">Nonprofit</a>
+          <a href="#" class="list-group-item">Residential Services</a>
+          <a href="#" class="list-group-item">Security and Safety</a>
+          <a href="#" class="list-group-item">Stores and Dealers</a>
+          <a href="#" class="list-group-item">Technology</a>
+          <a href="#" class="list-group-item">Transportation Services</a>
+        </div>
+      </div>
+      <div class="col-lg-9" id="search-results">
 
+      </div>
+    </div>
   </div>
+  <!--Search Results show up here-->
+  <!--<div id="search-results" class="container mt-5">-->
 
+  <!--</div>-->
 
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col px-5">
+          <h6>About Us</h6>
+          <hr>
+          <p>Veteran Business Book is an online database of San Antonio's
+            local veteran-owned businesses.</p>
+        </div>
+        <div class="col px-5">
+          <h6>Quick Links</h6>
+          <hr>
+          <ul>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Spotlight</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+        <div class="col px-5">
+          <h6>Get Started</h6>
+          <hr>
+          <p>Create a free profile for your business today!</p>
+          <button type="submit" class="btn btn-primary btn-sm"
+                  id="sign-up-sub">Sign
+            Up</button>
+        </div>
+        <div class="col px-5">
+          <h6>Connect With Us</h6>
+          <hr>
+          <input type="text" placeholder="you@email.com" class="mb-3">
+          <br>
+          <button type="submit" class="btn btn-primary btn-sm">Join
+            the Newsletter</button>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="social-icons">
+        <div class="col-md-1 text-center"><i
+                class="fab fa-facebook-square"></i></div>
+        <div class="col-md-1 text-center"><i
+                class="fab fa-instagram"></i></div>
+        <div class="col-md-1 text-center"><i
+                class="fab fa-twitter-square"></i></div>
+      </div>
+      <div class="row" id="sub-footer">
+        <div class="col-sm-12 text-center">
+          Veteran Business Book - 2019
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
