@@ -12,7 +12,7 @@ const {googleMapsKey} = require('./keys')
 
 console.log("in index");
 
-var businessList = business
+var businessList = business.sort((a, b) => a.name.localeCompare(b.name))
 var ownerList = owner;
 
 console.log(businessList);
@@ -93,9 +93,9 @@ $("#user-search-input").on("keyup" , function (event) {
 function createLongBusinessCard(business){
 	var html = "";
 
-	html += '<div class="card col-xs-12 w-100 mb-3">';
-	html += '<div class="card-header">';
-	html += '<h3>'+ business.name +'<span class="float-right"><img style="height: 50px" src="img/'+business.affiliationLogoUrl +'" alt=""></span></h3>';
+	html += '<div class="card col-xs-12 w-100 mb-5 shadow bg-white rounded">';
+	html += '<div class="card-header" id="directory-c-header">';
+	html += '<h3>'+ business.name+'<span class="float-right"><img style="height: 50px" src="img/'+business.affiliationLogoUrl +'" alt=""></span></h3>';
 	html += '</div>';
 	html += '<div class="card-body">';
 	html += '<div class="row">';
@@ -110,7 +110,7 @@ function createLongBusinessCard(business){
 
 	html += '<p class="card-text">'+ business.description +'</p>';
 	// html += '<a href="" class="btn btn-primary" id="class-link" data-id="'+business.id +'">Learn More</a>';
-	html += '<a href="" class="card-link" data-id="'+business.id +'"> Learn More</a>';
+	html += '<a id="long-card-learn-more" href="" class="card-link" data-id="'+business.id +'"> Learn More</a>';
 
 	html += '</div>';
 	html += '</div>';
@@ -235,7 +235,10 @@ function createProfileHtml(){
     businessHtml += '<li><strong>Phone: </strong>'+ profileBusiness.phone + '</li>';
     businessHtml += '<li><strong>Website: </strong><a target="_blank" href="'+ profileBusiness.website +'">'+ profileBusiness.website + '</a></li>';
     businessHtml += '</ul>';
-    businessHtml += '</div>';
+	businessHtml += '<hr>';
+
+
+	businessHtml += '</div>';
     businessHtml += '</div>';
 
     return businessHtml;
