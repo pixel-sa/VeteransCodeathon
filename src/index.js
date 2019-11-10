@@ -12,7 +12,7 @@ const {googleMapsKey} = require('./keys')
 
 console.log("in index");
 
-var businessList = business.sort((a, b) => a.name.localeCompare(b.name))
+var businessList = business
 var ownerList = owner;
 
 console.log(businessList);
