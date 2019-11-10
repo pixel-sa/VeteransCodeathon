@@ -19,6 +19,12 @@ var ownerList = owner;
 console.log(businessList);
 console.log(ownerList);
 
+
+$(document).on('click', '#add-business', function () {
+	console.log("add btn");
+})
+
+
 $('.carousel').carousel({
     interval: 4000
 });
@@ -111,8 +117,8 @@ function createLongBusinessCard(business){
 
 	html += '<p class="card-text">'+ business.description +'</p>';
 	// html += '<a href="" class="btn btn-primary" id="class-link" data-id="'+business.id +'">Learn More</a>';
-	html += '<a id="long-card-learn-more" href="" class="card-link" data-id="'+business.id +'"> Learn More</a>';
-
+	// html += '<a id="long-card-learn-more" href="" class="card-link" data-id="'+business.id +'"> Learn More</a>';
+	html += '<button id="long-card-learn-more" type="button" class="btn btn-link card-link" data-id="'+ business.id+'">Learn More</button>'
 	html += '</div>';
 	html += '</div>';
 	html += '</div>';
@@ -282,5 +288,4 @@ function sendSms(info){
 		}
 	});
 };
-
 
