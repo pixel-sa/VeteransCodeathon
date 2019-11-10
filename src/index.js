@@ -25,7 +25,9 @@ $('.carousel').carousel({
 function renderBusinessCards(){
 	var html ='<div class="row">'
 	businessList.forEach(function (business) {
-		html += createBusinessCardHtml(business)
+		// html += createBusinessCardHtml(business)
+		html += createLongBusinessCard(business)
+
 	});
 	html += '</div>';
 
@@ -38,7 +40,8 @@ renderBusinessCards();
 function renderFilteredBusinessCards(filteredBusinessList){
 	var html ='<div class="row">'
 	filteredBusinessList.forEach(function (business) {
-		html += createBusinessCardHtml(business)
+		// html += createBusinessCardHtml(business)
+		html += createLongBusinessCard(business)
 	});
 	html += '</div>';
 
@@ -85,6 +88,37 @@ $("#user-search-input").on("keyup" , function (event) {
 	}
 
 })
+
+function createLongBusinessCard(business){
+	var html = "";
+
+	html += '<div class="card col-xs-12 w-100 mb-3">';
+	html += '<div class="card-header">';
+	html += '<h3>'+ business.name +'<span class="float-right"><img style="height: 50px" src="img/'+business.affiliationLogoUrl +'" alt=""></span></h3>';
+	html += '</div>';
+	html += '<div class="card-body">';
+	html += '<div class="row">';
+
+	html += '<div class="col-xs-12 col-md-3 text-center">';
+	html += '<img style="width: 12.5em; height: 12.5em; object-fit: cover" src="img/'+ business.imageUrl +'" alt="...">';
+
+	html += '</div>';
+
+	html += '<div class="col-xs-12 col-md-9">';
+		html += '<h4 class="card-subtitle mb-2 text-muted">'+ business.firstName + " " + business.lastName + ' - ' + business.affiliation +'</h4>';
+
+	html += '<p class="card-text">'+ business.description +'</p>';
+	// html += '<a href="" class="btn btn-primary" id="class-link" data-id="'+business.id +'">Learn More</a>';
+	html += '<a href="" class="card-link" data-id="'+business.id +'"> Learn More</a>';
+
+	html += '</div>';
+	html += '</div>';
+	html += '</div>';
+	html += '</div>';
+
+
+	return html
+}
 
 
 function createBusinessCardHtml(business){

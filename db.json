@@ -9,10 +9,10 @@
       "website": "placeholder",
       "category": "Home",
       "firstName": "Andrew",
-      "lastName": "Hammill,",
+      "lastName": "Hammill",
       "affiliation": "Air Force, Separated",
       "imageUrl": "home1.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 2,
@@ -23,10 +23,10 @@
       "website":  "placeholder",
       "category": "Veteran Services",
       "firstName": "Sharon",
-      "lastName": "Blackna,ll",
+      "lastName": "Blacknall",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "children1.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 3,
@@ -54,7 +54,7 @@
       "lastName": "Pleasant",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "security1.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 5,
@@ -68,7 +68,7 @@
       "lastName": "Phillips",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "real-estate.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 6,
@@ -82,7 +82,7 @@
       "lastName": "Clutts",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "ptsd.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "lastName": "Davila ,Jr.",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "notary.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 8,
@@ -110,7 +110,7 @@
       "lastName": "Alexander",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "cleaning.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 9,
@@ -124,7 +124,7 @@
       "lastName": "Ripley",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "floral.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 10,
@@ -139,7 +139,7 @@
       "lastName": "Davis",
       "affiliation": "Air Force, Retired",
       "imageUrl":  "rocket-fizz.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 11,
@@ -154,7 +154,7 @@
       "lastName": "Calder",
       "affiliation": "Air Force, Separated",
       "imageUrl":  "mr-appliance.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 12,
@@ -169,7 +169,7 @@
       "lastName": "Hubbert",
       "affiliation":"Air Force, Retired",
       "imageUrl":  "champion-ac.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 13,
@@ -184,7 +184,7 @@
       "lastName": "Aleman",
       "affiliation":"Army",
       "imageUrl":  "champion-ac.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 14,
@@ -199,7 +199,7 @@
       "lastName": "Carlberg",
       "affiliation":"Army",
       "imageUrl":  "m2-global.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 15,
@@ -214,7 +214,7 @@
       "lastName": "Alarik",
       "affiliation":"Army",
       "imageUrl":  "grunt-style-logo.jpg",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 16,
@@ -229,7 +229,7 @@
       "lastName": "Avila",
       "affiliation":"Army",
       "imageUrl":  "tsbyrne.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 17,
@@ -244,7 +244,7 @@
       "lastName": "Birdy",
       "affiliation":"Air Force",
       "imageUrl":  "birdy-logo.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     },
     {
       "id": 18,
@@ -259,7 +259,7 @@
       "lastName": "Good",
       "affiliation":"Air Force",
       "imageUrl":  "electric-logo.png",
-      "affiliationLogoUrl": "army-logo.png"
+      "affiliationLogoUrl": "us-army-crest.png"
     }
 
 
