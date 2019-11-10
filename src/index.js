@@ -228,7 +228,7 @@ function createProfileHtml(){
     businessHtml += '<div class="row">';
     businessHtml += '<div class="col-lg-6 col-sm-12 text-center">';
     // businessHtml += '<img class="img-fluid" src="img/'+ profileBusiness.imageUrl +'" alt="">'
-    businessHtml += '<iframe width="500" height="450" frameborder="0"' +
+    businessHtml += '<iframe width="500" height="475" frameborder="0"' +
         ' style="border:0" src="https://www.google.com/maps/embed/v1/place?q='+ createEmbedMapString(profileBusiness.address) +'&key='+ googleMapsKey +'" allowfullscreen></iframe>';
     businessHtml += '</div>';
     businessHtml += '<div class="col-lg-6 col-sm-12">';
@@ -241,9 +241,18 @@ function createProfileHtml(){
     businessHtml += '<li><strong>Address: </strong>'+ profileBusiness.address + '</li>';
     businessHtml += '<li><strong>Phone: </strong>'+ profileBusiness.phone + '</li>';
     businessHtml += '<li><strong>Website: </strong><a target="_blank" href="'+ profileBusiness.website +'">'+ profileBusiness.website + '</a></li>';
+    businessHtml += '<li><strong>Category: </strong>' + profileBusiness.category + '</li>';
     businessHtml += '</ul>';
 	businessHtml += '<hr>';
-	businessHtml += '<button type="button" id="send-info-btn" class="btn btn-primary">Send Info</button>';
+	businessHtml += '<div class="row text-center"><div class="col"><i' +
+        ' class="fab fa-instagram fa-3x"></i></div><div' +
+        ' class="col"><i class="fab' +
+        ' fa-facebook-square fa-3x"></i></div><div' +
+        ' class="col"><i class="fab fa-yelp fa-3x"></i></div><div' +
+        ' class="col"><i class="fab fa-twitter-square' +
+        ' fa-3x"></i></div></div><br>';
+	businessHtml += '<button type="button" id="send-info-btn" class="btn' +
+        ' btn-primary btn-block">Send Info</button>';
 
 
 	businessHtml += '</div>';
