@@ -155,7 +155,14 @@ function createBusinessTable(){
 
 
 
-$('.card-link').on("click", function(event){
+// $('.card-link').on("click", function(event){
+//     event.preventDefault()
+//     var businessId = $(this).attr("data-id")
+//     var queryString = $.param({id: businessId})
+//     window.location.replace("/profile.html?" + queryString);
+// })
+
+$(document).on("click", '.card-link', function(event){
     event.preventDefault()
     var businessId = $(this).attr("data-id")
     var queryString = $.param({id: businessId})
