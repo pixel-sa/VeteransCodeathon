@@ -12,6 +12,25 @@ hr {
 
 footer {
     background-color: #062535 !important;
+    color: rgba(255,255,255,.5) !important;
+}
+
+footer hr {
+    margin-left: 0;
+    width: 50%;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul a:link,
+footer ul a:hover,
+footer ul a:active,
+footer ul a:visited {
+    color: rgba(255,255,255,.5);
+    text-decoration: underline;
 }
 .navbar-custom {
     background-color: #062535 !important;
@@ -84,6 +103,16 @@ footer {
 
 .carousel-caption .col{
     background-color: #000;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#sign-up-main,
+#sign-up-sub {
+    background-color: #6a8d73 !important;
+    border-color: #6a8d73 !important;
     background-color: rgba(0,0,0,0.6);
 }
 
